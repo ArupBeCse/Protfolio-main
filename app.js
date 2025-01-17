@@ -9,7 +9,7 @@ function myMenuFunction() {
 
 
 /*--Dark Mode---*/
-const body = document.querySelector("body"),
+const body = document.querySelector("body");
     toggleSwitch = document.getElementById("toggle-switch");
 
 toggleSwitch.addEventListener("click", () => {
