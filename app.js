@@ -9,11 +9,11 @@ function myMenuFunction() {
 
 
 /*--Dark Mode---*/
-const body = document.querySelector("body");
+const body1 = document.querySelector("body");
     toggleSwitch = document.getElementById("toggle-switch");
 
 toggleSwitch.addEventListener("click", () => {
-    body.classList.toggle("dark");
+    body1.classList.toggle("dark");
 });
 
 /*----Typing Effect---*/
