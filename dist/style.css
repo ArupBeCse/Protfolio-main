@@ -76,7 +76,7 @@ nav {
     line-height: 100px;
     background: var(--nav-color);
     padding-inline: 10vw;
-    transition: 0.3s;
+    transition: 0.3s;   
     z-index: 100;
 
 }
