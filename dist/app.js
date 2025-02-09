@@ -123,3 +123,15 @@ function scrollActive() {
 }
 
 window.addEventListener("scroll", scrollActive);
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    var loaderWrapper = document.querySelector(".loader-wrapper");
+
+    window.addEventListener("load", function () {
+        setTimeout(function () {
+            loaderWrapper.classList.add("hidden");
+        }, 1000);
+    });
+});
