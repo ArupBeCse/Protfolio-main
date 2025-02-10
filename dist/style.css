@@ -969,3 +969,33 @@ footer {
     opacity: 0;
     visibility: hidden;
 }
+
+
+
+
+.logo-box {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    /* Places it on the left side */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* Adds space between the logo and text */
+  
+  }
+  
+  .logo-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #8749f2;
+  }
+  
+  .logo-box span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #8749f2;
+  }
+  
+  
